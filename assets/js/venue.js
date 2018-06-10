@@ -20,6 +20,7 @@ function initMap() {
             "<h4>MTBA Symposium 2018</h4>" +
             "<p>Auditorium (Room 1103)<br>" +
             "Knapp Center for Biomedical Discovery<br>" +
+            "The University of Chicago<br>" +
             "900 E 57th St, Chicago, IL 60637<p>" +
             "</div>"
     });
