@@ -11,9 +11,10 @@ function initMap() {
     var centerMarker = new google.maps.Marker({
         position: center,
         map: map,
+        animation: google.maps.Animation.BOUNCE,
         title: "MTBA Symposium 2018 (Knapp Center for Biomedical Discovery)"
-        // label: 'ABC'
     });
+
     var centerInfoWindow = new google.maps.InfoWindow({
         content: "<div class='map-info'>" +
             "<h4>MTBA Symposium 2018</h4>" +
@@ -25,5 +26,4 @@ function initMap() {
     centerMarker.addListener('click', function () {
         centerInfoWindow.open(map, centerMarker);
     });
-
 }
