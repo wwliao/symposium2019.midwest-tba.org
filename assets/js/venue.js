@@ -11,7 +11,6 @@ function initMap() {
     var centerMarker = new google.maps.Marker({
         position: center,
         map: map,
-        animation: google.maps.Animation.BOUNCE,
         title: "MTBA Symposium 2018 (Knapp Center for Biomedical Discovery)"
     });
 
