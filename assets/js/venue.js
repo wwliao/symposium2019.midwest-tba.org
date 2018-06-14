@@ -1,7 +1,7 @@
 // Google Maps
 function initMap() {
     var center = {lat: 41.7916469, lng: -87.6034081};
-    var map = new google.maps.Map(document.getElementById('venue'), {
+    var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 14,
         center: center,
         scrollwheel: false,
