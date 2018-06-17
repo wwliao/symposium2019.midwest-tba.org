@@ -1653,7 +1653,7 @@
 	}
 
 	p {
-		text-align: justify;
+		text-align: left;
 	}
 
 	br.clear {
@@ -1750,7 +1750,7 @@
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 4em 0;
+			margin: 0 0 1em 0;
 		}
 
 		.image.left {
