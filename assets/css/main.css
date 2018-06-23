@@ -1968,7 +1968,7 @@
 			}
 
 			table.default th {
-				text-align: left;
+				text-align: right;
 				font-weight: 400;
 				padding: 0.5em 1em 0.5em 1em;
 			}
@@ -3047,4 +3047,8 @@
         width: 100%;
         margin-top: 0em;
         margin-bottom: 0em;
+    }
+
+    #schedule h3 {
+        text-align: center;
     }
