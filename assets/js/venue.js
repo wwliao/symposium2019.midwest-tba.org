@@ -1,6 +1,6 @@
 // Google Maps
 function initMap() {
-    var center = {lat: 41.7916469, lng: -87.6034081};
+    var center = {lat: 41.895193, lng: -87.620098};
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 14,
         center: center,
@@ -251,16 +251,16 @@ function initMap() {
     var centerMarker = new google.maps.Marker({
         position: center,
         map: map,
-        title: "MTBA Symposium 2018 (Knapp Center for Biomedical Discovery)"
+        title: "MTBA Symposium 2019 (Robert H. Lurie Medical Research Center)"
     });
 
     var centerInfoWindow = new google.maps.InfoWindow({
         content: "<div class='map-info'>" +
-            "<h4>MTBA Symposium 2018</h4>" +
-            "<p>Auditorium (Room 1103)<br>" +
-            "Knapp Center for Biomedical Discovery<br>" +
-            "The University of Chicago<br>" +
-            "900 E 57th St, Chicago, IL 60637<p>" +
+            "<h4>MTBA Symposium 2019</h4>" +
+            "<p>Baldwin Auditorium<br>" +
+            "Robert H. Lurie Medical Research Center<br>" +
+            "Northwestern University<br>" +
+            "303 E Superior St, Chicago, IL 60611<p>" +
             "</div>"
     });
     centerMarker.addListener('click', function () {
