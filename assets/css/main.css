@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
 @import url("font-awesome.min.css");
 
 /*
@@ -1555,7 +1556,7 @@
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Source Sans Pro', 'Noto Sans TC', sans-serif;
 		font-weight: 300;
 	}
 
@@ -1573,7 +1574,7 @@
 	input, textarea, select {
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Source Sans Pro', 'Noto Sans TC', sans-serif;
 		font-weight: 300;
 	}
 
